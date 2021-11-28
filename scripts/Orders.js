@@ -1,4 +1,4 @@
-import { getOrders } from "./database.js"
+import { getOrders, addCustomOrder } from "./database.js"
 
 const buildOrderListItem = (order) => {
     return `<li>
