@@ -1,10 +1,11 @@
-import { getOrders, addCustomOrder } from "./database.js"
+import { getOrders, getMetals } from "./database.js"
 
 const buildOrderListItem = (order) => {
     return `<li>
         Order #${order.id} was placed on ${order.timestamp}
     </li>`
 }
+
 
 export const Orders = () => {
     /*
@@ -22,3 +23,6 @@ export const Orders = () => {
 
     return html
 }
+
+
+

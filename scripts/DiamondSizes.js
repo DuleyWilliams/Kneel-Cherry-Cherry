@@ -25,12 +25,6 @@ export const DiamondSizes = () => {
     html += listItemsArray.join("")
     
 
-    // for (const size of sizes) {
-    //     html += `<li>
-    //         <input type="radio" name="size" value="${size.id}" /> ${size.carets}
-    //     </li>`
-    // }
-
     html += "</ul>"
     return html
 }
